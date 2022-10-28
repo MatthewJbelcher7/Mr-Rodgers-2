@@ -6,3 +6,9 @@ function roboReturn(number) {
     }
     return outputArray
 }
+
+function roboReturn2(number){
+  const numberArray = (let i = 1; i < number.length; i++)
+  let outputArray = [] 
+    return numberArray
+}

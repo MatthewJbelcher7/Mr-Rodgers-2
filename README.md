@@ -34,16 +34,17 @@ Test: "It will replace 1 with the word 'Beep'."
 Code: roborReturn("1")
 Excpeted Output: "Beep"
 
+<!-- Tests omitted because unessasary
 Test: "It will replace the number 1 within multi-digit numbers with the word 'Beep'."
 Code: roboReturn("103")
 Excpeted Output: "Beep03"
 
 Test: "It will replace the number 1 within numerous numbers with 'Beep'."
 Code: roboReturn("1, 11, 101")
-Excpeted Output: "Beep, BeepBeep, Beep0Beep,"
+Excpeted Output: "Beep, BeepBeep, Beep0Beep," -->
 
-Test:
-Code:
+Test: "It will turn function into an array of numbers as long as the number choosen"
+Code: (let i = 0, i <= number; i++)
 Excpeted Output:
 
 Test:

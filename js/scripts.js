@@ -1,12 +1,11 @@
 function roboReturn(number) {
-const numberArray =number.split("")
-const beep = ["1"]
-
-numberArray.forEach(function(this) {
-let outputArray = [];
-  if (number.includes(this[1])) {
-    outputArray.push("Beep!");
-  }
-})
-  return outputArray
+  const numberArray = number.split("");
+  const beep = ["1"];
+  let outputArray = [];
+  numberArray.forEach(function(other) {
+    if (beep.includes(other[0])) {
+      outputArray.push("Beep!");
+    }
+  })
+    return outputArray.join("");       
 }

@@ -34,6 +34,15 @@ Test: "It will replace 1 with the word 'Beep'."
 Code: roborReturn("1")
 Excpeted Output: "Beep"
 
+Test: "It will return the number if not '1'."
+Code:
+  roboReturn("2")
+  
+     } else { 
+      outputArray.push(number)
+    
+Excpeted Output: "2"
+
 <!-- Tests omitted because unessasary
 Test: "It will replace the number 1 within multi-digit numbers with the word 'Beep'."
 Code: roboReturn("103")

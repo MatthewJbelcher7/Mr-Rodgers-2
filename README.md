@@ -37,13 +37,13 @@ Excpeted Output: "Beep"
 Test: "It will return the number if not '1'."
 Code:
   roboReturn("2")
-  
+
      } else { 
       outputArray.push(number)
     
 Excpeted Output: "2"
 
-<!-- Tests omitted because unessasary
+<!-- Tests omitted because unnessasary
 Test: "It will replace the number 1 within multi-digit numbers with the word 'Beep'."
 Code: roboReturn("103")
 Excpeted Output: "Beep03"
@@ -51,6 +51,8 @@ Excpeted Output: "Beep03"
 Test: "It will replace the number 1 within numerous numbers with 'Beep'."
 Code: roboReturn("1, 11, 101")
 Excpeted Output: "Beep, BeepBeep, Beep0Beep," -->
+
+Describe: roboReturn2()
 
 Test: "It will turn function into an array of numbers as long as the number choosen"
 Code: (let i = 0, i <= number; i++)

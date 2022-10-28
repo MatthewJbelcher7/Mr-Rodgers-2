@@ -30,17 +30,17 @@ Copyright (c) _<10/28/2022>_ {Matthew Belcher}
 
 Describe: roboReturn()
 
-Test:
-Code:
-Excpeted Output:
+Test: "It will replace 1 with the word 'Beep'."
+Code: roborReturn("1")
+Excpeted Output: "Beep"
 
-Test:
-Code:
-Excpeted Output:
+Test: "It will replace the number 1 within multi-digit numbers with the word 'Beep'."
+Code: roboReturn("103")
+Excpeted Output: "Beep03"
 
-Test:
-Code:
-Excpeted Output:
+Test: "It will replace the number 1 within numerous numbers with 'Beep'."
+Code: roboReturn("1, 11, 101")
+Excpeted Output: "Beep, BeepBeep, Beep0Beep,"
 
 Test:
 Code:
